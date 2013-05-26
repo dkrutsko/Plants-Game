@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2f5811b6-0bdf-4de9-b060-7bc5ca0ed6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{f1639f4a-fc54-4c43-982a-272db1e8cf13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{e2087a1c-2047-49f6-8f83-f07ef60932e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Enemy">
+      <UniqueIdentifier>{deed324d-5d69-46fe-8a31-d03b742ffe0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Misc">
+      <UniqueIdentifier>{b7f6ed11-f23f-4162-9c35-1379871df85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Player">
+      <UniqueIdentifier>{6a86a0a4-adca-420d-a33b-354cca9156d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{c56adec5-053c-4de4-90df-053279bd93c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+    <None Include="Icon.ico">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cc" />
+    <ClCompile Include="Game.cc">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cc">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cc">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGroup.cc">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cc">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cc">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="mtrand.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter.cc">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Emitter.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="mtrand.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGroup.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Walnut.h">
+      <Filter>Logic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunflower.h">
+      <Filter>Logic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Peashooter.h">
+      <Filter>Logic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Cherrybomb.h">
+      <Filter>Logic\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Urchin.h">
+      <Filter>Logic\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Geode.h">
+      <Filter>Logic\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Grunt.h">
+      <Filter>Logic\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Logic\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Pea.h">
+      <Filter>Logic\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

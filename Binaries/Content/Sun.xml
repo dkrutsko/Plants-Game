@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Emitter Version="2011.4" Texture="Smoke.tga" Name="Sun">
+	<Rate Value="80.0" />
+	<Radius X="3.0" Y="0.0" Z="3.0" />
+	<LifeMin Value="0.50" />
+	<LifeMax Value="1.25" />
+	<SizeMin Value="1.5" />
+	<SizeMax Value="2.5" />
+	<Color R="250" G="250" B="0" />
+	<Spread X="2.0" Y="0.0" Z="2.0" />
+	<Wind X="0.0" Y="30.0" Z="0.0" />
+</Emitter>

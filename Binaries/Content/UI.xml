@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteSheet Version="2011.4" Texture="UI.tga" Name="UI">
+	<Sprite Name="Cherrybomb" X="0" Y="0" Width="240" Height="160" />
+	<Sprite Name="Peashooter" X="240" Y="0" Width="240" Height="160" />
+	<Sprite Name="SCherrybomb" X="0" Y="160" Width="240" Height="160" />
+	<Sprite Name="SPeashooter" X="240" Y="160" Width="240" Height="160" />
+	<Sprite Name="SSunflower" X="0" Y="320" Width="240" Height="160" />
+	<Sprite Name="Sunflower" X="240" Y="320" Width="240" Height="160" />
+	<Sprite Name="SWalnut" X="0" Y="480" Width="240" Height="160" />
+	<Sprite Name="Walnut" X="240" Y="480" Width="240" Height="160" />
+	<Sprite Name="0" X="0" Y="640" Width="80" Height="100" />
+	<Sprite Name="1" X="80" Y="640" Width="80" Height="100" />
+	<Sprite Name="2" X="160" Y="640" Width="80" Height="100" />
+	<Sprite Name="3" X="240" Y="640" Width="80" Height="100" />
+	<Sprite Name="4" X="320" Y="640" Width="80" Height="100" />
+	<Sprite Name="5" X="400" Y="640" Width="80" Height="100" />
+	<Sprite Name="6" X="0" Y="740" Width="80" Height="100" />
+	<Sprite Name="7" X="80" Y="740" Width="80" Height="100" />
+	<Sprite Name="8" X="160" Y="740" Width="80" Height="100" />
+	<Sprite Name="9" X="240" Y="740" Width="80" Height="100" />
+	<Sprite Name="Score" X="0" Y="840" Width="210" Height="100" />
+	<Sprite Name="Bar" X="210" Y="840" Width="120" Height="90" />
+	<Sprite Name="Progress" X="330" Y="840" Width="120" Height="90" />
+</SpriteSheet>

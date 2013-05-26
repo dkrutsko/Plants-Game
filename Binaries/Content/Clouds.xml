@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Emitter Version="2011.4" Texture="Snow.tga" Name="Clouds">
+	<Rate Value="120.0" />
+	<Radius X ="55.0" Y="13.5" Z="25.0" />
+	<LifeMin Value="3.0" />
+	<LifeMax Value="4.0" />
+	<SizeMin Value="1.5" />
+	<SizeMax Value="2.5" />
+	<Saturation Value="0.0" />
+	<Color R="0" G="0" B="0" />
+	<Alpha Value="0.2" />
+	<Spread X="0.0" Y="0.0" Z="0.0" />
+	<Position X="0.0" Y="-15.0" Z="0.0" />
+	<Wind X="0.0" Y="-3.0" Z="0.0" />
+</Emitter>

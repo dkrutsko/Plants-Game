@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Emitter Version="2011.4" Texture="Fog.tga" Name="Torrent">
+	<Rate Value="20.0" />
+	<Radius X="1.0" Y="0.0" Z="1.0" />
+	<LifeMin Value="1.0" />
+	<LifeMax Value="1.5" />
+	<SizeMin Value="2.0" />
+	<SizeMax Value="3.0" />
+	<Color R="255" G="255" B="255" />
+	<Alpha Value="0.6" />
+	<Spread X="3.0" Y="0.0" Z="3.0" />
+	<Wind X="0.0" Y="5.0" Z="0.0" />
+</Emitter>

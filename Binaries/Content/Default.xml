@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Emitter Version="2011.4" Texture="Default.tga" Name="Default">
+	<Rate Value="30.0" />
+	<Radius X="0.0" Y="0.0" Z="0.0" />
+	<LifeMin Value="1.5" />
+	<LifeMax Value="2.5" />
+	<SizeMin Value="3.0" />
+	<SizeMax Value="6.0" />
+	<Saturation Value="0.0" />
+	<Color R="255" G="255" B="255" />
+	<Alpha Value="0.5" />
+	<Spread X="1.0" Y="0.0" Z="1.0" />
+	<Gravity Value="0.0" />
+	<Position X="0.0" Y="0.0" Z="0.0" />
+	<Rotation X="0.0" Y="0.0" Z="0.0" />
+	<Wind X="0.0" Y="0.0" Z="0.0" />
+	<Bounciness Value="0.9" />
+</Emitter>
+
+<!-- This is an example of a particle in its default state -->

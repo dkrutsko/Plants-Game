@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Emitter Version="2011.4" Texture="Snow.tga" Name="Snow">
+	<Rate Value="400.0" />
+	<Radius X="250.0" Y="250.0" Z="250.0" />
+	<LifeMin Value="1.5" />
+	<LifeMax Value="2.5" />
+	<SizeMin Value="0.70" />
+	<SizeMax Value="1.20" />
+	<Color R="255" G="255" B="255" />
+	<Alpha Value="0.6" />
+	<Wind X="0.0" Y="-2.0" Z="0.0" />
+	<Bounciness Value="0.9" />
+</Emitter>
